@@ -26,15 +26,4 @@ npm run build     # genera la carpeta dist/ (minificada)
 npm run preview   # previsualiza el build
 ```
 
-## Publicar en GitHub Pages
-
-1. Creá un repo en GitHub y subí este proyecto a la rama `main`.
-2. En el repo: **Settings → Pages → Build and deployment → Source: GitHub Actions**.
-3. Cada push a `main` ejecuta el workflow, hace el build y publica el sitio.
-4. El link queda en `https://<usuario>.github.io/<nombre-del-repo>/` (también aparece en la pestaña **Actions**).
-
-### Sobre la privacidad del código
-
-- El sitio publicado contiene solo el código minificado de `dist/`, no tus archivos fuente.
-- Con un repo privado, tus compañeros no ven `src/` ni el historial. Publicar Pages desde repos privados depende del plan de GitHub (Pro, Team o Enterprise).
-- El JavaScript que corre en el navegador nunca puede ocultarse del todo: se puede inspeccionar, aunque esté minificado.
+icado.
